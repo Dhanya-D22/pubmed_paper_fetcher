@@ -1,0 +1,25 @@
+[project]
+name = "pubmed-paper-fetcher"
+version = "0.1.0"
+description = "CLI tool to fetch PubMed papers with non-academic authors"
+authors = [
+  {name = "Dhanya-D22", email = "dhanyapoojary2002@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "requests",
+  "typer",
+  "pandas",
+  "lxml"
+]
+
+[project.scripts]
+get-papers-list = "pubmed_paper_fetcher.cli:app"
+
+[tool.poetry]
+packages = [{ include = "pubmed_paper_fetcher" }]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
