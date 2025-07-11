@@ -113,9 +113,9 @@ pubmed_paper_fetcher/
 
 ---
 
-## 👩 Author
+##  Author
 
-**Dhanya Poojary**
+**Dhanya **
  [dhanyapoojary2002@gmail.com](mailto:dhanyapoojary2002@gmail.com)
  MCA Student
 
